@@ -1,7 +1,7 @@
 [
 	{
 		"name": "The Grapevine",
-		"leaderName": "The High Grapemind",
+		"leaderName": "The Overgrape",
 		"adjective": ["Grape"],
 		"preferredVictoryType": "Domination",
 		"style": "Grape",
@@ -29,7 +29,7 @@
 
 		"outerColor": [190,190,190],
 		"innerColor": [0,0,0],
-		"uniqueName": "The Great Infectious Horde",
+		"uniqueName": "The Grape Infectious Horde",
 		"uniques": [
 			"Free [Crashed Grapeshuttle] appears <hidden from users>",
 			"[-100]% Unhappiness from [Population] [in all cities]",
