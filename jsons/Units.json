@@ -1,17 +1,35 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
+		"name": "Vinehand",
+		"unitType": "Civilian",
+		"uniqueTo": "The Grapevine",
+		"replaces": "Worker",
 		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+		"requiredTech": "Agriculture",
+		"uniques": [
+			"Can build [Land] improvements on tiles", 
+			"Can build [Plantation] improvements at a [+25]% rate", 
+			"Can build [Farm] improvements at a [+25]% rate", 
+			"Automation is a primary action"
+		],
+		"cost": 70
+	},
+	{
+		"name": "Crashed Grapeshuttle",
+		"uniqueTo": "The Grapevine",
+		"unitType": "Civilian",
+		"movement": 0,
+		"obsoleteTech": "Agriculture",
+		"uniques": ["Founds a new city <by consuming this unit>","Unbuildable"]
+	},
+	{
+		"name": "Progenitor",
+		"unitType": "Civilian",
+		"uniqueTo": "The Grapevine",
+		"replaces": "Settler",
+		"movement": 2,
+		"uniques" : ["Founds a new city <in [Grapelands] tiles> <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [4] population"],
+		"attackSound": "nonmetalhit"
+	},
 ]
