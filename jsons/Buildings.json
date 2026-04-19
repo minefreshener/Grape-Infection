@@ -32,12 +32,33 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Lighthouse",
+		"name": "Grapelight",
+		"replaces": "Lighthouse",
+		"uniqueTo": "The Grapevine",
 		"cost": 75,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
-			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Grape Juice] tiles [in this city]",
+			"[+1 Production] from [Grape Juice] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
 		"requiredTech": "Optics"
+	},
+	{
+		"name": "Assimilation",
+		"replaces": "Courthouse",
+		"uniqueTo": "The Grapevine",
+		"maintenance": 0,
+		"hurryCostModifier": 50,
+		"uniques": ["Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Vinoduct",
+		"replaces": "Aqueduct",
+		"uniqueTo": "The Grapevine",
+		"maintenance": 0,
+		"hurryCostModifier": 0,
+		"uniques": ["[50]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Engineering"
 	},
 ]
