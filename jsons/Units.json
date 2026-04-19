@@ -32,4 +32,22 @@
 			"Requires at least [4] population"],
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Infector",
+		"unitType": "Civilian",
+		"uniqueTo": "The Grapevine",
+		"movement": 2,
+		"requiredTech": "Agriculture",
+		"uniques": [
+			"Automation is a primary action",
+			"Turn this tile into a [Grape Juice] tile <in [Ocean] tiles> <by consuming this unit>",
+			"Turn this tile into a [Grape Juice] tile <in [Coast] tiles> <by consuming this unit>",
+			"Turn this tile into a [Wine Lake] tile <in [Lakes] tiles> <by consuming this unit>",
+			"Turn this tile into a [Grapelands] tile <in [Grassland] tiles> <by consuming this unit>",
+			"Turn this tile into a [Grapelands] tile <in [Plains] tiles> <by consuming this unit>",
+			"Turn this tile into a [Grape Swamp] tile <in [Marsh] tiles> <by consuming this unit>",
+			"Turn this tile into a [Ograpesis] tile <in [Oasis] tiles> <by consuming this unit>",
+		],
+		"cost": 70
+	},
 ]
