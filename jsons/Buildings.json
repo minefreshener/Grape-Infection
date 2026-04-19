@@ -1,25 +1,43 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Grapary",
+		"replaces": "Granary",
+		"uniqueTo": "The Grapevine",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Wine Lake] tiles [in this city]",
+			"[+1 Food] from [Grapelands] tiles [in this city]",
+			"[+1 Food] from [Wine] tiles [in this city]"],
+		"requiredTech": "Pottery"
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+		"name": "River Grapifier",
+		"replaces": "Water Mill",
+		"uniqueTo": "The Grapevine",
+		"maintenance": 2,
+		"food": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]"],
+		"requiredTech": "The Wheel"
+	},
+	{
+		"name": "Vine Barrier",
+		"replaces": "Walls",
+		"uniqueTo": "The Grapevine",
+		"cityStrength": 10,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Lighthouse",
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
+		"requiredTech": "Optics"
+	},
 ]
